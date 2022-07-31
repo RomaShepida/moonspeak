@@ -202,8 +202,6 @@ body {
 }
 
 /* ==================================================================== MAIN / SECTION-LIST */
-.section-list {
-}
 .section-list__wrapper {
 	display: flex;
 	gap: 0;
@@ -225,7 +223,7 @@ body {
 	font-size: 14px;
 	max-width: 300px;
 }
-.section-list__item:not(:last-child){
+.section-list__item:not(:last-child) {
 	margin-bottom: 45px;
 }
 .section-list__title {
@@ -237,4 +235,37 @@ body {
 .section-list__text {
 	color: #6d6081;
 	line-height: 1.5;
+}
+
+/* ==================================================================== MAIN / SECTION-CARDS */
+.section-cards {
+	padding: 100px 0px;
+}
+.section-cards__container {
+}
+.section-cards__items {
+	display: flex;
+	justify-content: space-between;
+}
+.section-cards__item {
+	flex: 0 1 350px;
+	background-color: #fff;
+	padding: 45px;
+	text-align: center;
+	color: #222222;
+	font-size: 17px;
+}
+.section-cards__item:not(:last-child) {
+	margin-right: 30px;
+}
+.section-cards__title {
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 45px;
+}
+.section-cards__text {
+	font-weight: 300;
+	margin-bottom: 45px;
+}
+.section-cards__link {
 }
