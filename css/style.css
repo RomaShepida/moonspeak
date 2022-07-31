@@ -299,17 +299,34 @@ body {
 	font-weight: 700;
 	
 }
-.section-contacts__number {
-	
-}
-.section-contacts__email {
-}
-.section-contacts__mail {
-}
 .section-contacts__right {
 	flex: 0 0 50%;
 }
 .section-contacts__image {
 	width: 100%;
 	object-fit: cover;
+}
+
+/* ==================================================================== FOOTER */
+.footer {
+	padding: 50px 0;
+}
+.footer__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.footer__icons {
+	display: flex;
+	align-items: center;
+	gap: 25px;
+}
+.footer__icon {
+}
+.footer__link {
+}
+.footer__copyright {
+	line-height: 1.4;
+	color: #353535;
+	font-size: 20px;
 }
