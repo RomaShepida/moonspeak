@@ -241,8 +241,6 @@ body {
 .section-cards {
 	padding: 100px 0px;
 }
-.section-cards__container {
-}
 .section-cards__items {
 	display: flex;
 	justify-content: space-between;
@@ -268,4 +266,50 @@ body {
 	margin-bottom: 45px;
 }
 .section-cards__link {
+	color: #4eaeff;
+	text-decoration: underline;
+}
+
+/* ==================================================================== MAIN / SECTION-CONTACTS */
+.section-contacts {
+	background-color: #353535;
+}
+.section-contacts__container {
+	color: #ffffff;
+	display: flex;
+	font-size: 16px;
+	line-height: 1.5;
+	align-items: center;
+}
+.section-contacts__left {
+	flex: 0 0 50%;
+}
+.section-contacts__text {
+	font-weight: 300;
+	margin-bottom: 25px;
+}
+.section-contacts__wrapper {
+	max-width: 350px;
+}
+.section-contacts__phone {
+	margin-bottom: 25px;
+}
+.section-contacts__title {
+	font-size: 16px;
+	font-weight: 700;
+	
+}
+.section-contacts__number {
+	
+}
+.section-contacts__email {
+}
+.section-contacts__mail {
+}
+.section-contacts__right {
+	flex: 0 0 50%;
+}
+.section-contacts__image {
+	width: 100%;
+	object-fit: cover;
 }
