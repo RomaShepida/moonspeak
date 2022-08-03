@@ -300,12 +300,6 @@ body {
 	height: auto;
 	object-fit: cover;
 }
-@media screen and (max-width: 1201px) {
-}
-@media screen and (max-width: 1025px) {
-}
-@media screen and (max-width: 993px) {
-}
 @media screen and (max-width: 769px) {
 	.gallery__items {
 		grid-template-columns: repeat(2, 1fr);
@@ -315,7 +309,6 @@ body {
 @media screen and (max-width: 481px) {
 	.gallery__items {
 		grid-template-columns: repeat(1, 1fr);
-		grid-template-rows: repeat(auto, 1fr);
 	}
 }
 
