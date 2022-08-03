@@ -426,8 +426,6 @@ body {
 		flex-direction: column;
 	}
 }
-@media screen and (max-width: 481px) {
-}
 
 /* ==================================================================== MAIN / SECTION-CARDS */
 .section-cards {
@@ -461,7 +459,41 @@ body {
 	color: #4eaeff;
 	text-decoration: underline;
 }
+@media screen and (max-width: 1201px) {
+}
+@media screen and (max-width: 1025px) {
+}
+@media screen and (max-width: 993px) {
+	.section-cards__item {
+		padding: 25px;
+		font-size: 16px;
+	}
+	.section-cards__title {
+		margin-bottom: 25px;
+	}
+	.section-cards__text {
+		margin-bottom: 25px;
+	}
+}
+@media screen and (max-width: 769px) {
+	.section-cards__items {
+		flex-wrap: wrap;
+		gap: 40px;
+		justify-content: center;
+	}
 
+	.section-cards__item {
+		flex: 0 1 560px;
+	}
+	.section-cards__item:not(:last-child) {
+		margin-right: 0px;
+	}
+	.section-cards {
+		padding: 50px 0px;
+	}
+}
+@media screen and (max-width: 481px) {
+}
 /* ==================================================================== MAIN / SECTION-CONTACTS */
 .section-contacts {
 	background-color: #353535;
