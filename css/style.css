@@ -327,6 +327,27 @@ body {
 	letter-spacing: 1px;
 	line-height: 1.2;
 }
+@media screen and (max-width: 993px) {
+	.section-text {
+		padding: 150px 20px;
+	}
+}
+@media screen and (max-width: 769px) {
+	.section-text {
+		padding: 100px 20px;
+	}
+	.section-text__text {
+		font-size: 28px;
+	}
+}
+@media screen and (max-width: 481px) {
+	.section-text {
+		padding: 60px 20px;
+	}
+	.section-text__text {
+		font-size: 25px;
+	}
+}
 
 /* ==================================================================== MAIN / SECTION-LIST */
 .section-list__wrapper {
