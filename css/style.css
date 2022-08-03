@@ -459,10 +459,6 @@ body {
 	color: #4eaeff;
 	text-decoration: underline;
 }
-@media screen and (max-width: 1201px) {
-}
-@media screen and (max-width: 1025px) {
-}
 @media screen and (max-width: 993px) {
 	.section-cards__item {
 		padding: 25px;
@@ -492,8 +488,7 @@ body {
 		padding: 50px 0px;
 	}
 }
-@media screen and (max-width: 481px) {
-}
+
 /* ==================================================================== MAIN / SECTION-CONTACTS */
 .section-contacts {
 	background-color: #353535;
@@ -529,7 +524,20 @@ body {
 	width: 100%;
 	object-fit: cover;
 }
-
+@media screen and (max-width: 769px) {
+	.section-contacts__container {
+		flex-direction: column;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	.section-contacts__wrapper {
+		max-width: 100%;
+		text-align: center;
+		margin-bottom: 25px;
+	}
+}
+@media screen and (max-width: 481px) {
+}
 /* ==================================================================== FOOTER */
 .footer {
 	padding: 50px 0;
