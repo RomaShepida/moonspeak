@@ -526,14 +526,26 @@ body {
 }
 @media screen and (max-width: 769px) {
 	.section-contacts__container {
-		flex-direction: column;
+		flex-direction: column-reverse;
 		padding-top: 25px;
 		padding-bottom: 25px;
 	}
 	.section-contacts__wrapper {
 		max-width: 100%;
-		text-align: center;
+	}
+	.section-contacts__image {
 		margin-bottom: 25px;
+	}
+	.section-contacts__phone,
+	.section-contacts__email {
+		display: flex;
+		gap: 10px;
+	}
+	.section-contacts__email {
+		margin-bottom: 0;
+	}
+	.section-contacts__title::after {
+		content: " :";
 	}
 }
 /* ==================================================================== FOOTER */
