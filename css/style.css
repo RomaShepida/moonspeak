@@ -536,8 +536,6 @@ body {
 		margin-bottom: 25px;
 	}
 }
-@media screen and (max-width: 481px) {
-}
 /* ==================================================================== FOOTER */
 .footer {
 	padding: 50px 0;
@@ -557,15 +555,12 @@ body {
 	color: #353535;
 	font-size: 20px;
 }
-
-/* ==================================================================== @MEDIA */
-@media screen and (max-width: 1201px) {
-}
-@media screen and (max-width: 1025px) {
-}
-@media screen and (max-width: 993px) {
-}
-@media screen and (max-width: 769px) {
-}
 @media screen and (max-width: 481px) {
+	.footer {
+		padding: 25px 0;
+	}
+	.footer__container {
+		flex-direction: column;
+		gap: 25px;
+	}
 }
