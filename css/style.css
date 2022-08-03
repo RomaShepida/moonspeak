@@ -555,10 +555,12 @@ body {
 	color: #353535;
 	font-size: 20px;
 }
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 769px) {
 	.footer {
 		padding: 25px 0;
 	}
+}
+@media screen and (max-width: 481px) {
 	.footer__container {
 		flex-direction: column;
 		gap: 25px;
